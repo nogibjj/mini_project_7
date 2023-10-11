@@ -22,3 +22,11 @@ pub fn encrypt(text: &str, shift: u8) -> String {
 pub fn decrypt(text: &str, shift: u8) -> String {
     encrypt(text, 26 - shift)
 }
+
+pub fn add_numbers(a: i32, b: i32) -> i32 {
+    let sum = a + b;
+    sum
+}
+
+
+
