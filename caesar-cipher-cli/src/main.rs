@@ -46,4 +46,10 @@ fn main() {
     } else {
         println!("Please specify either --encrypt or --decrypt");
     }
+    
+    let num1 = 5;
+    let num2 = 7;
+    let result = args.add_numbers(num1, num2);
+    println!("The sum of {} and {} is: {}", num1, num2, result);
 }
+
