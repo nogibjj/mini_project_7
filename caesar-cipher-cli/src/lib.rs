@@ -1,7 +1,7 @@
 /*
-This code defines two functions: encrypt and decrypt.
+This code defines three functions: encrypt, decrypt add_numbers.
 The encrypt function takes a plaintext string and a shift value, and returns the ciphertext string. The decrypt function takes a ciphertext string and a shift value,
-and returns the plaintext string.
+and returns the plaintext string. The add_numbers function add up two values a 'a' and 'b'
 
 */
 
