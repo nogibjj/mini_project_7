@@ -27,7 +27,7 @@ This hands-on lab provides experience with:
 
 2. Clone your forked repository 
 
-3. Navigate to one of the command-line tool projects
+3. Navigate to one of the command-line tool [projects](caesar-cipher-cli/src/lib.rs)
 
 4. Make a small modification to the tool: add a rust CLI
 
