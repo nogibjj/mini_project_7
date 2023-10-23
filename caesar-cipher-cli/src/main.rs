@@ -21,23 +21,19 @@ struct Args {
     /// Encrypt the message
     #[arg(short, long)]
     encrypt: bool,
-    let encrypt = 1;
 
     /// decrypt the message
     #[arg(short, long)]
     decrypt: bool,
-    let decrypt = 1;
 
     /// The message to encrypt or decrypt
     #[arg(short, long)]
     message: String,
-    let message = "Hello World!"
 
     /// The shift to use for the cipher
     /// Must be between 1 and 25, the default is 3
     #[arg(short, long, default_value = "3")]
     shift: u8,
-    let shift = 3;
 }
 
 // run it
